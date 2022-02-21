@@ -42,8 +42,10 @@ This resource type inherits from [itemFacet](itemfacet.md).
 |service|[serviceInformation](../resources/serviceinformation.md)| Contains basic detail about the service that is being associated. |
 |source|[personDataSource](../resources/persondatasource.md)|Where the values originated if synced from another service. Inherited from [itemFacet](../resources/itemfacet.md).|
 |statusMessage|String|Contains a status message from the cloud service if provided or synchronized. |
-|userId|String|The user name  displayed for the webaccount.  |
+|userId<sup>*</sup>|String|The user name  displayed for the webaccount.  |
 |webUrl|String|Contains a link to the user's profile on the cloud service if one exists.|
+
+<sup>*</sup> Required property
 
 ## Relationships
 None.
