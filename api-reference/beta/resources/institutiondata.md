@@ -20,9 +20,11 @@ Represents additional detail about an undergraduate, graduate, postgraduate degr
 | Property     | Type                                 | Description                                              |
 |:-------------|:-------------------------------------|:---------------------------------------------------------|
 |description   |String                                |Short description of the institution the user studied at. |
-|displayName   |String                                |Name of the institution the user studied at.              |
+|displayName<sup>*</sup>|String                                |Name of the institution the user studied at.              |
 |location      |[physicalAddress](physicaladdress.md) |Address or location of the institute.                     |
 |webUrl        |String                                |Link to the institution or department homepage.           |
+
+<sup>*</sup> Required property
 
 ## JSON representation
 
