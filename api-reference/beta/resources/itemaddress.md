@@ -31,13 +31,15 @@ Inherits from [itemFacet](../resources/itemfacet.md).
 |createdBy|[identitySet](../resources/identityset.md)|Provides the identifier of the user and/or application that created the entity. Inherited from [itemFacet](../resources/itemfacet.md).|
 |createdDateTime|DateTimeOffset|Provides the dateTimeOffset for when the entity was created. Inherited from [itemFacet](../resources/itemfacet.md).|
 |detail|[physicalAddress](../resources/physicaladdress.md)|Details about the address itself.|
-|displayName|String|Friendly name the user has assigned to this address. |
+|displayName<sup>*</sup>|String|Friendly name the user has assigned to this address. |
 |geoCoordinates|[geoCoordinates](../resources/geocoordinates.md)|The geocoordinates of the address.|
 |id|String|Identifier used for individually addressing the entity. Inherited from [entity](../resources/entity.md)|
 |inference|[inferenceData](../resources/inferencedata.md)|Contains inference detail if the entity is inferred by the creating or modifying application. Inherited from [itemFacet](../resources/itemfacet.md).|
 |lastModifiedBy|[identitySet](../resources/identityset.md)|Provides the identifier of the user and/or application that last modified the entity. Inherited from [itemFacet](../resources/itemfacet.md).|
 |lastModifiedDateTime|DateTimeOffset|Provides the dateTimeOffset for when the entity was created. Inherited from [itemFacet](../resources/itemfacet.md).|
 |source|[personDataSource](../resources/persondatasource.md)|Where the values originated if synced from another service. Inherited from [itemFacet](../resources/itemfacet.md).|
+
+<sup>*</sup> Required property
 
 ## Relationships
 None.
