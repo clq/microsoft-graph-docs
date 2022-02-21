@@ -19,9 +19,11 @@ Represents information about people related to information within a given entity
 
 | Property        | Type        | Description                                                                                                                                                                                                                                     |
 |:----------------|:------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|displayName      |String       | Name of the person.                                                                                                                                                                                                                             |
+|displayName<sup>*</sup>|String       | Name of the person.                                                                                                                                                                                                                             |
 |relationship     |String       | Possible values are: `manager`, `colleague`, `directReport`, `dotLineReport`, `assistant`, `dotLineManager`, `alternateContact`, `friend`, `spouse`, `sibling`, `child`, `parent`, `sponsor`, `emergencyContact`, `other`, `unknownFutureValue`.|
 |userPrincipalName|String       | Email address or reference to person within organization.                                                                                                                                                                                       |
+
+<sup>*</sup> Required property
 
 ## JSON representation
 
