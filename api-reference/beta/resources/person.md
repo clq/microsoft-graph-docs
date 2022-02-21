@@ -28,7 +28,7 @@ An aggregation of information about a person from across mail, contacts and soci
 |birthday|string|The person's birthday.|
 |companyName|string|The name of the person's company.|
 |department|string|The person's department.|
-|displayName|string|The person's display name.|
+|displayName<sup>*</sup>|string|The person's display name.|
 |emailAddresses|[rankedEmailAddress](rankedemailaddress.md) collection|The person's email addresses.|
 |givenName|string|The person's given name.|
 |id|string|The person's unique identifier. Read-only.|
@@ -46,6 +46,8 @@ An aggregation of information about a person from across mail, contacts and soci
 |userPrincipalName|string|The user principal name (UPN) of the person. The UPN is an Internet-style login name for the person based on the Internet standard [RFC 822](https://www.ietf.org/rfc/rfc0822.txt). By convention, this should map to the person's email name. The general format is alias@domain.|
 |websites|[website](website.md) collection|The person's websites.|
 |yomiCompany|string|The phonetic Japanese name of the person's company.|
+
+<sup>*</sup> Required property
 
 ## Relationships
 
