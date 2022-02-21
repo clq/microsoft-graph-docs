@@ -32,8 +32,10 @@ Inherits from [itemFacet](itemfacet.md).
 |:-------------|:------------------|:----------------------------------------------------------------------------------------------|
 |categories    |String collection  | Contains categories a user has associated with the website (for example, personal, recipes).  |
 |description   |String             | Contains a description of the website.                                                        |
-|displayName   |String             | Contains a friendly name for the website.                                                     |
-|webUrl        |String             | Contains a link to the website itself.                                                        |
+|displayName<sup>*</sup>|String             | Contains a friendly name for the website.                                                     |
+|webUrl<sup>*</sup>     |String             | Contains a link to the website itself.                                                        |
+
+<sup>*</sup> Required property
 
 ## Properties
 |Property|Type|Description|
@@ -43,13 +45,15 @@ Inherits from [itemFacet](itemfacet.md).
 |createdBy|[identitySet](../resources/identityset.md)|Provides the identifier of the user and/or application that created the entity. Inherited from [itemFacet](../resources/itemfacet.md).|
 |createdDateTime|DateTimeOffset|Provides the dateTimeOffset for when the entity was created. Inherited from [itemFacet](../resources/itemfacet.md).|
 |description|String|Contains a description of the website.|
-|displayName|String|Contains a friendly name for the website.|
+|displayName<sup>*</sup>|String|Contains a friendly name for the website.|
 |id|String|Identifier used for individually addressing the entity. Inherited from [entity](../resources/entity.md)|
 |inference|[inferenceData](../resources/inferencedata.md)|Contains inference detail if the entity is inferred by the creating or modifying application. Inherited from [itemFacet](../resources/itemfacet.md).|
 |lastModifiedBy|[identitySet](../resources/identityset.md)|Provides the identifier of the user and/or application that last modified the entity. Inherited from [itemFacet](../resources/itemfacet.md).|
 |lastModifiedDateTime|DateTimeOffset|Provides the dateTimeOffset for when the entity was created. Inherited from [itemFacet](../resources/itemfacet.md).|
 |source|[personDataSource](../resources/persondatasource.md)|Where the values originated if synced from another service. Inherited from [itemFacet](../resources/itemfacet.md).|
-|webUrl|String|Contains a link to the website itself.|
+|webUrl<sup>*</sup>|String|Contains a link to the website itself.|
+
+<sup>*</sup> Required property
 
 ## Relationships
 None.
