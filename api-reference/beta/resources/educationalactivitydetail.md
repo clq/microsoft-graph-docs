@@ -23,11 +23,13 @@ Represents additional detail about an undergraduate, graduate, postgraduate degr
 |activities    |String       |Extracurricular activities undertaken alongside the program.   |
 |awards        |String       |Any awards or honors associated with the program.              |
 |description   |String       |Short description of the program provided by the user.         |
-|displayName   |String       |Long-form name of the program that the user has provided.      |
+|displayName<sup>*</sup>|String       |Long-form name of the program that the user has provided.      |
 |fieldsOfStudy |String       |Majors and minors associated with the program. (if applicable) |
 |grade         |String       |The final grade, class, GPA or score.                          |
 |notes         |String       |Additional notes the user has provided.                        |
 |webUrl        |String       |Link to the degree or program page.                            |
+
+<sup>*</sup> Required property
 
 ## JSON representation
 
